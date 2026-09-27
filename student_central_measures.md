@@ -1,6 +1,6 @@
 # DAX Measures – Student Central Dashboard
 
-All calculations are built on a single table, `Students`, loaded from `data/stu_students.csv`. They are grouped by the dashboard visual they support.
+All calculations are built on a single table, `Students`, loaded from `StudentCentral_PowerBI_Dataset.xlsx`. They are grouped by the dashboard visual they support.
 
 Measures ending in *Rate*, *Share* or *%* are formatted as percentages in Power BI.
 
