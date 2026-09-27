@@ -2,7 +2,7 @@
 
 A Power BI dashboard that gives a university's Student Central Head a single view of complaints, club engagement and alumni reach. It is built on a synthetic dataset that I designed.
 
-> **To view the dashboard,** open `Student_Central_Dashboard.pbix` in Power BI Desktop (see [How to Open](#how-to-open)).
+> **To view the dashboard,** open `Student Central Head.pbix` in Power BI Desktop (see [How to Open](#how-to-open)).
 
 ---
 
@@ -131,7 +131,7 @@ Together, these actions link Student Central's three areas of responsibility int
 | Alumni Count | Number of students with an Alumni status |
 | Average Referrals per Alumnus | Mean number of students referred by alumni |
 
-The full DAX code for these calculations is in [`dax/measures.md`](dax/measures.md).
+The full DAX code for these calculations is in [`student_central_measures.md`](student_central_measures.md).
 
 ---
 
@@ -148,11 +148,9 @@ The full DAX code for these calculations is in [`dax/measures.md`](dax/measures.
 ```
 student-central-powerbi-dashboard/
 ├── README.md
-├── Student_Central_Dashboard.pbix
-├── data/
-│   └── stu_students.csv
-└── dax/
-    └── measures.md
+├── Student Central Head.pbix
+├── StudentCentral_PowerBI_Dataset.xlsx
+└── student_central_measures.md
 ```
 
 ---
@@ -160,8 +158,8 @@ student-central-powerbi-dashboard/
 ## How to Open
 
 1. Download or clone this repository.
-2. Open `Student_Central_Dashboard.pbix` in [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop), which is free for Windows.
-3. The data is already loaded, so the report works as it is. To refresh it from the CSV, go to **Transform data → Data source settings → Change Source** and point it to `data/stu_students.csv`.
+2. Open `Student Central Head.pbix` in [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop), which is free for Windows.
+3. The data is already loaded, so the report works as it is. To refresh it, go to **Transform data → Data source settings → Change Source** and point it to `StudentCentral_PowerBI_Dataset.xlsx` in your downloaded copy.
 
 ---
 
